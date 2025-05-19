@@ -8,8 +8,6 @@ const auth = (req, res, next) => {
         }
         const decoded = jwt.verify(token, "%%^&^&*@@!!");
         req.user = decoded;
-
-        // Proceed to the next middleware
         next();
     } catch (err) {
         console.error(err);
