@@ -1,0 +1,33 @@
+{
+  "name": "final-project",
+  "version": "1.0.0",
+  "description": "Fitness Tracker- Final Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Fitness",
+    "Tracker",
+    "-",
+    "Final",
+    "Project.",
+    "Group",
+    "Members:",
+    "Abdullah",
+    "Kashif",
+    "-L1f22bsse0194",
+    "Asad",
+    "Ali-L1f22bsse0178"
+  ],
+  "author": "Abdullah Kashif, Asad Ali",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.3",
+    "nodemon": "^3.1.9"
+  }
+}
